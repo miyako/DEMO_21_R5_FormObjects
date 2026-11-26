@@ -30,6 +30,10 @@
 				<source>Create</source>
 				<target>作成</target>
 			</trans-unit>
+			<trans-unit id="Button_Cancel" resname="Button_Cancel">
+				<source>Cancel</source>
+				<target>キャンセル</target>
+			</trans-unit>
 			<trans-unit id="Theme_CodeButtons" resname="Theme_CodeButtons">
 				<source>Buttons</source>
 				<target>ボタン</target>

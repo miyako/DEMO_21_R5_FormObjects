@@ -202,9 +202,12 @@
 					"borderFillColor": "#2E75B6",
 					"borderColor": "#1F4E79",
 					"borderWidth": 1,
-					"borderRadius": 6,
+					"borderRadius": 8,
 					"sizingX": "move",
-					"visibility": "visible"
+					"visibility": "visible",
+					"style": "custom",
+					"borderStyle": "custom",
+					"stroke": "#FFFFFF"
 				},
 				"themeGrey": {
 					"type": "button",
@@ -222,7 +225,10 @@
 					"borderWidth": 1,
 					"borderRadius": 4,
 					"sizingX": "move",
-					"visibility": "visible"
+					"visibility": "visible",
+					"style": "custom",
+					"borderStyle": "custom",
+					"stroke": "#FFFFFF"
 				},
 				"themePop": {
 					"type": "button",
@@ -238,9 +244,12 @@
 					"borderFillColor": "#F76707",
 					"borderColor": "#C2410C",
 					"borderWidth": 1,
-					"borderRadius": 12,
+					"borderRadius": 14,
 					"sizingX": "move",
-					"visibility": "visible"
+					"visibility": "visible",
+					"style": "custom",
+					"borderStyle": "custom",
+					"stroke": "#FFFFFF"
 				},
 				"codeLabel": {
 					"type": "text",

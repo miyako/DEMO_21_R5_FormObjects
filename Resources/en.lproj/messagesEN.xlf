@@ -30,6 +30,10 @@
 				<source>Create</source>
 				<target>Create</target>
 			</trans-unit>
+			<trans-unit id="Button_Cancel" resname="Button_Cancel">
+				<source>Cancel</source>
+				<target>Cancel</target>
+			</trans-unit>
 			<trans-unit id="Theme_CodeButtons" resname="Theme_CodeButtons">
 				<source>Buttons</source>
 				<target>Buttons</target>

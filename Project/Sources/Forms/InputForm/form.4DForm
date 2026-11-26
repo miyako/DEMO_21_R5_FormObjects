@@ -63,8 +63,11 @@
 					"borderFillColor": "#2E75B6",
 					"borderColor": "#1F4E79",
 					"borderWidth": 1,
-					"borderRadius": 6,
-					"sizingX": "move"
+					"borderRadius": 8,
+					"sizingX": "move",
+					"style": "custom",
+					"borderStyle": "custom",
+					"stroke": "#FFFFFF"
 				},
 				"themeGreen": {
 					"type": "button",
@@ -81,7 +84,10 @@
 					"borderColor": "#5F6670",
 					"borderWidth": 1,
 					"borderRadius": 4,
-					"sizingX": "move"
+					"sizingX": "move",
+					"style": "custom",
+					"borderStyle": "custom",
+					"stroke": "#FFFFFF"
 				},
 				"themePop": {
 					"type": "button",
@@ -97,14 +103,17 @@
 					"borderFillColor": "#F76707",
 					"borderColor": "#C2410C",
 					"borderWidth": 1,
-					"borderRadius": 12,
-					"sizingX": "move"
+					"borderRadius": 14,
+					"sizingX": "move",
+					"style": "custom",
+					"borderStyle": "custom",
+					"stroke": "#FFFFFF"
 				},
 				"codeLabel": {
 					"type": "text",
 					"text": ":xliff:ThemePanel_CodeApplied",
 					"top": 180,
-					"left": 744,
+					"left": 735,
 					"width": 190,
 					"height": 16,
 					"fontWeight": "bold",
@@ -112,7 +121,7 @@
 				},
 				"themeCode": {
 					"type": "input",
-					"top": 198,
+					"top": 200,
 					"left": 735,
 					"width": 250,
 					"height": 244,
@@ -180,7 +189,7 @@
 				},
 				"btnCancel": {
 					"type": "button",
-					"text": ":xliff:CommonCancel",
+					"text": ":xliff:Button_Cancel",
 					"top": 436,
 					"left": 466,
 					"width": 100,

@@ -70,7 +70,7 @@ If ($fields="input@")
 		OBJECT SET COORDINATES(*; $name; $left; $bottom-$height; $right; $bottom)
 	End for each 
 	
-	// Inputs: best height with System, designed height (33) with a custom theme, top-aligned
+	// Inputs: best height (28 px minimum) with System, designed height (33) with a custom theme, top-aligned
 	ARRAY TEXT($objects; 0)
 	FORM GET OBJECTS($objects)
 	For ($i; 1; Size of array($objects))
@@ -78,7 +78,7 @@ If ($fields="input@")
 			OBJECT GET COORDINATES(*; $objects{$i}; $left; $top; $right; $bottom)
 			If ($t=Null)
 				OBJECT GET BEST SIZE(*; $objects{$i}; $bestWidth; $bestHeight)
-				$height:=$bestHeight
+				$height:=($bestHeight<28) ? 28 : $bestHeight  // best size can be shorter than the text line
 			Else 
 				$height:=33
 			End if 
