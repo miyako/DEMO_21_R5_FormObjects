@@ -14,6 +14,22 @@
 				<source>New</source>
 				<target>新規</target>
 			</trans-unit>
+			<trans-unit id="Order_TotalZero" resname="Order_TotalZero">
+				<source>$0.00</source>
+				<target>¥0</target>
+			</trans-unit>
+			<trans-unit id="AlertSaveFailed" resname="AlertSaveFailed">
+				<source>The order could not be saved.</source>
+				<target>注文を保存できませんでした。</target>
+			</trans-unit>
+			<trans-unit id="AlertRegenerateData" resname="AlertRegenerateData">
+				<source>Delete all orders and create the sample data again?</source>
+				<target>すべての注文を削除して、サンプルデータを作り直しますか？</target>
+			</trans-unit>
+			<trans-unit id="AlertButtonCreate" resname="AlertButtonCreate">
+				<source>Create</source>
+				<target>作成</target>
+			</trans-unit>
 			<trans-unit id="Theme_CodeButtons" resname="Theme_CodeButtons">
 				<source>Buttons</source>
 				<target>ボタン</target>
