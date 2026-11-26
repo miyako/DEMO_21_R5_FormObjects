@@ -5,7 +5,7 @@
 	},
 	"windowSizingX": "variable",
 	"windowSizingY": "variable",
-	"windowTitle": "Form Objects - Border & Background styles",
+	"windowTitle": ":xliff:StartScreen_WindowTitle",
 	"pages": [
 		{
 			"objects": {}
@@ -14,7 +14,7 @@
 			"objects": {
 				"title": {
 					"type": "text",
-					"text": "Border & Background Styles",
+					"text": ":xliff:StartScreen_Title",
 					"top": 25,
 					"left": 20,
 					"width": 520,
@@ -27,7 +27,7 @@
 				},
 				"subtitle": {
 					"type": "text",
-					"text": "Custom borders, background colors and corner radius in 4D 21 R5, set from the Form Editor, CSS or code.",
+					"text": ":xliff:StartScreen_Subtitle",
 					"top": 78,
 					"left": 20,
 					"width": 520,
@@ -39,7 +39,7 @@
 				},
 				"outputButton": {
 					"type": "button",
-					"text": "Open Demo Orders",
+					"text": ":xliff:StartScreen_OpenOrders",
 					"top": 145,
 					"left": 20,
 					"width": 250,
@@ -59,7 +59,7 @@
 				},
 				"dataButton": {
 					"type": "button",
-					"text": "Generate Data",
+					"text": ":xliff:StartScreen_GenerateData",
 					"top": 145,
 					"left": 290,
 					"width": 250,

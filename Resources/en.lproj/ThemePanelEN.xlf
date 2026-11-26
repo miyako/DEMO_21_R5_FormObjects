@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="ThemePanel" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="ThemePanel_Title" resname="ThemePanel_Title">
+				<source>Theme</source>
+				<target>Theme</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_System" resname="ThemePanel_System">
+				<source>System</source>
+				<target>System</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_RoundedSystem" resname="ThemePanel_RoundedSystem">
+				<source>Rounded System</source>
+				<target>Rounded System</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_Blue" resname="ThemePanel_Blue">
+				<source>Blue</source>
+				<target>Blue</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_Grey" resname="ThemePanel_Grey">
+				<source>Grey</source>
+				<target>Grey</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_Orange" resname="ThemePanel_Orange">
+				<source>Orange</source>
+				<target>Orange</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_CodeApplied" resname="ThemePanel_CodeApplied">
+				<source>Code applied</source>
+				<target>Code applied</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_Toggle" resname="ThemePanel_Toggle">
+				<source>Show or hide the theme panel</source>
+				<target>Show or hide the theme panel</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

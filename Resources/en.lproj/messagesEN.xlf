@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="messages" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="AlertDeleteOrder" resname="AlertDeleteOrder">
+				<source>Delete order {n}?</source>
+				<target>Delete order {n}?</target>
+			</trans-unit>
+			<trans-unit id="AlertButtonDelete" resname="AlertButtonDelete">
+				<source>Delete</source>
+				<target>Delete</target>
+			</trans-unit>
+			<trans-unit id="Order_StatusNew" resname="Order_StatusNew">
+				<source>New</source>
+				<target>New</target>
+			</trans-unit>
+			<trans-unit id="Theme_CodeButtons" resname="Theme_CodeButtons">
+				<source>Buttons</source>
+				<target>Buttons</target>
+			</trans-unit>
+			<trans-unit id="Theme_CodeListbox" resname="Theme_CodeListbox">
+				<source>List box</source>
+				<target>List box</target>
+			</trans-unit>
+			<trans-unit id="Theme_CodeInputs" resname="Theme_CodeInputs">
+				<source>Inputs</source>
+				<target>Inputs</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

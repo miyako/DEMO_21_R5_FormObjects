@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="OutputForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="OutputForm_WindowTitle" resname="OutputForm_WindowTitle">
+				<source>Order desk - Orders</source>
+				<target>受注デスク - 注文一覧</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_Add" resname="OutputForm_Add">
+				<source>Add</source>
+				<target>追加</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_Edit" resname="OutputForm_Edit">
+				<source>Edit</source>
+				<target>編集</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_Delete" resname="OutputForm_Delete">
+				<source>Delete</source>
+				<target>削除</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_AddTip" resname="OutputForm_AddTip">
+				<source>New order</source>
+				<target>新しい注文</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_EditTip" resname="OutputForm_EditTip">
+				<source>Edit order</source>
+				<target>注文を編集</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_DeleteTip" resname="OutputForm_DeleteTip">
+				<source>Delete order</source>
+				<target>注文を削除</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_HeaderOrder" resname="OutputForm_HeaderOrder">
+				<source>Order</source>
+				<target>注文番号</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_HeaderCustomer" resname="OutputForm_HeaderCustomer">
+				<source>Customer</source>
+				<target>顧客</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_HeaderStatus" resname="OutputForm_HeaderStatus">
+				<source>Status</source>
+				<target>ステータス</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_HeaderTotal" resname="OutputForm_HeaderTotal">
+				<source>Total</source>
+				<target>合計</target>
+			</trans-unit>
+			<trans-unit id="OutputForm_HeaderDate" resname="OutputForm_HeaderDate">
+				<source>Date</source>
+				<target>日付</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

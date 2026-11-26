@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="messages" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="AlertDeleteOrder" resname="AlertDeleteOrder">
+				<source>Delete order {n}?</source>
+				<target>注文 {n} を削除しますか？</target>
+			</trans-unit>
+			<trans-unit id="AlertButtonDelete" resname="AlertButtonDelete">
+				<source>Delete</source>
+				<target>削除</target>
+			</trans-unit>
+			<trans-unit id="Order_StatusNew" resname="Order_StatusNew">
+				<source>New</source>
+				<target>新規</target>
+			</trans-unit>
+			<trans-unit id="Theme_CodeButtons" resname="Theme_CodeButtons">
+				<source>Buttons</source>
+				<target>ボタン</target>
+			</trans-unit>
+			<trans-unit id="Theme_CodeListbox" resname="Theme_CodeListbox">
+				<source>List box</source>
+				<target>リストボックス</target>
+			</trans-unit>
+			<trans-unit id="Theme_CodeInputs" resname="Theme_CodeInputs">
+				<source>Inputs</source>
+				<target>入力</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

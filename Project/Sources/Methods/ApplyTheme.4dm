@@ -50,11 +50,11 @@ Else
 		OBJECT SET RGB COLORS(*; $fields; ""; ""; ""; $t.border)
 	End if 
 	
-	$state.code:="// Buttons\r"+\
+	$state.code:="// "+Localized string("Theme_CodeButtons")+"\r"+\
 		"OBJECT SET BORDER STYLE(*; \"btn@\"; Border Custom)\r"+\
 		"OBJECT SET RGB COLORS(*; \"btn@\"; \""+$t.font+"\"; \""+$t.fill+"\"; \"\"; \""+$t.border+"\")\r"+\
 		"OBJECT SET CORNER RADIUS(*; \"btn@\"; "+String($t.radius)+")\r\r"+\
-		"// "+(($fields="list@") ? "Listbox" : "Inputs")+"\r"+\
+		"// "+Localized string(($fields="list@") ? "Theme_CodeListbox" : "Theme_CodeInputs")+"\r"+\
 		"OBJECT SET BORDER STYLE(*; \""+$fields+"\"; Border Plain)\r"+\
 		"OBJECT SET RGB COLORS(*; \""+$fields+"\"; \"\"; \"\"; \"\"; \""+$t.fieldBorder+"\")"
 End if 

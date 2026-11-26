@@ -1,7 +1,7 @@
 var $order : cs.OrderEntity
 $order:=ds.Order.new()
 $order.customer:=""
-$order.status:="New"
+$order.status:=Localized string("Order_StatusNew")
 $order.total:="$0.00"
 $order.date:=Current date
 $order.address:=""
