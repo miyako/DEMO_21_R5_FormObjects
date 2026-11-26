@@ -7,7 +7,7 @@
 	"windowSizingY": "variable",
 	"windowMinWidth": 694,
 	"windowMinHeight": 480,
-	"windowTitle": "Order desk - Orders",
+	"windowTitle": ":xliff:OutputForm_WindowTitle",
 	"pages": [
 		{
 			"objects": {}
@@ -16,7 +16,7 @@
 			"objects": {
 				"btnAdd": {
 					"type": "button",
-					"text": "Add",
+					"text": ":xliff:OutputForm_Add",
 					"top": 20,
 					"left": 20,
 					"width": 80,
@@ -25,12 +25,12 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/btnAdd.4dm",
-					"tooltip": "New order",
+					"tooltip": ":xliff:OutputForm_AddTip",
 					"style": "regular"
 				},
 				"btnEdit": {
 					"type": "button",
-					"text": "Edit",
+					"text": ":xliff:OutputForm_Edit",
 					"top": 20,
 					"left": 110,
 					"width": 80,
@@ -39,12 +39,12 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/btnEdit.4dm",
-					"tooltip": "Edit order",
+					"tooltip": ":xliff:OutputForm_EditTip",
 					"style": "regular"
 				},
 				"btnDrop": {
 					"type": "button",
-					"text": "Delete",
+					"text": ":xliff:OutputForm_Delete",
 					"top": 20,
 					"left": 200,
 					"width": 80,
@@ -53,7 +53,7 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/btnDrop.4dm",
-					"tooltip": "Delete order",
+					"tooltip": ":xliff:OutputForm_DeleteTip",
 					"style": "regular"
 				},
 				"ListOrders": {
@@ -80,7 +80,7 @@
 							"name": "Order",
 							"dataSource": "This.orderNumber",
 							"header": {
-								"text": "Order",
+								"text": ":xliff:OutputForm_HeaderOrder",
 								"name": "Header1"
 							},
 							"width": 80,
@@ -94,7 +94,7 @@
 							"name": "Customer",
 							"dataSource": "This.customer",
 							"header": {
-								"text": "Customer",
+								"text": ":xliff:OutputForm_HeaderCustomer",
 								"name": "Header2"
 							},
 							"width": 200,
@@ -108,7 +108,7 @@
 							"name": "Status",
 							"dataSource": "This.status",
 							"header": {
-								"text": "Status",
+								"text": ":xliff:OutputForm_HeaderStatus",
 								"name": "Header3"
 							},
 							"width": 130,
@@ -122,7 +122,7 @@
 							"name": "Total",
 							"dataSource": "This.total",
 							"header": {
-								"text": "Total",
+								"text": ":xliff:OutputForm_HeaderTotal",
 								"name": "Header4"
 							},
 							"width": 120,
@@ -138,7 +138,7 @@
 							"dataSourceTypeHint": "date",
 							"dateFormat": "abbreviated",
 							"header": {
-								"text": "Date",
+								"text": ":xliff:OutputForm_HeaderDate",
 								"name": "Header5"
 							},
 							"width": 120,
@@ -165,7 +165,7 @@
 				},
 				"panelTitle": {
 					"type": "text",
-					"text": "Theme",
+					"text": ":xliff:ThemePanel_Title",
 					"top": 29,
 					"left": 735,
 					"width": 190,
@@ -176,7 +176,7 @@
 				},
 				"themeSystem": {
 					"type": "button",
-					"text": "System",
+					"text": ":xliff:ThemePanel_System",
 					"top": 64,
 					"left": 735,
 					"width": 120,
@@ -190,7 +190,7 @@
 				},
 				"themeBlue": {
 					"type": "button",
-					"text": "Blue",
+					"text": ":xliff:ThemePanel_Blue",
 					"top": 64,
 					"left": 870,
 					"width": 120,
@@ -202,13 +202,16 @@
 					"borderFillColor": "#2E75B6",
 					"borderColor": "#1F4E79",
 					"borderWidth": 1,
-					"borderRadius": 6,
+					"borderRadius": 8,
 					"sizingX": "move",
-					"visibility": "visible"
+					"visibility": "visible",
+					"style": "custom",
+					"borderStyle": "custom",
+					"stroke": "#FFFFFF"
 				},
 				"themeGrey": {
 					"type": "button",
-					"text": "Grey",
+					"text": ":xliff:ThemePanel_Grey",
 					"top": 131,
 					"left": 870,
 					"width": 120,
@@ -217,16 +220,19 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/themeGrey.4dm",
-					"borderFillColor": "#16835B",
-					"borderColor": "#0E5A3E",
+					"borderFillColor": "#8A9099",
+					"borderColor": "#5F6670",
 					"borderWidth": 1,
-					"borderRadius": 12,
+					"borderRadius": 4,
 					"sizingX": "move",
-					"visibility": "visible"
+					"visibility": "visible",
+					"style": "custom",
+					"borderStyle": "custom",
+					"stroke": "#FFFFFF"
 				},
 				"themePop": {
 					"type": "button",
-					"text": "Orange",
+					"text": ":xliff:ThemePanel_Orange",
 					"top": 98,
 					"left": 870,
 					"width": 120,
@@ -238,13 +244,16 @@
 					"borderFillColor": "#F76707",
 					"borderColor": "#C2410C",
 					"borderWidth": 1,
-					"borderRadius": 12,
+					"borderRadius": 14,
 					"sizingX": "move",
-					"visibility": "visible"
+					"visibility": "visible",
+					"style": "custom",
+					"borderStyle": "custom",
+					"stroke": "#FFFFFF"
 				},
 				"codeLabel": {
 					"type": "text",
-					"text": "Code applied",
+					"text": ":xliff:ThemePanel_CodeApplied",
 					"top": 180,
 					"left": 735,
 					"width": 190,
@@ -275,7 +284,7 @@
 				},
 				"themeRoundedSystem": {
 					"type": "button",
-					"text": "Rounded System",
+					"text": ":xliff:ThemePanel_RoundedSystem",
 					"top": 98,
 					"left": 735,
 					"width": 120,
@@ -301,7 +310,8 @@
 					"method": "ObjectMethods/bCollapse.4dm",
 					"style": "disclosure",
 					"dataSource": "Form:C1466.isCollapsed",
-					"sizingX": "move"
+					"sizingX": "move",
+					"tooltip": ":xliff:ThemePanel_Toggle"
 				}
 			}
 		}

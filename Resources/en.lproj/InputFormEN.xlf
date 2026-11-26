@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="InputForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="InputForm_WindowTitle" resname="InputForm_WindowTitle">
+				<source>Order details - Customer and delivery</source>
+				<target>Order details - Customer and delivery</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Heading" resname="InputForm_Heading">
+				<source>Order details</source>
+				<target>Order details</target>
+			</trans-unit>
+			<trans-unit id="InputForm_OrderNumber" resname="InputForm_OrderNumber">
+				<source>Order Number</source>
+				<target>Order Number</target>
+			</trans-unit>
+			<trans-unit id="InputForm_OrderNumberNew" resname="InputForm_OrderNumberNew">
+				<source>Assigned on save</source>
+				<target>Assigned on save</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Customer" resname="InputForm_Customer">
+				<source>Customer</source>
+				<target>Customer</target>
+			</trans-unit>
+			<trans-unit id="InputForm_CustomerPlaceholder" resname="InputForm_CustomerPlaceholder">
+				<source>Customer name</source>
+				<target>Customer name</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Address" resname="InputForm_Address">
+				<source>Delivery address</source>
+				<target>Delivery address</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Notes" resname="InputForm_Notes">
+				<source>Delivery notes</source>
+				<target>Delivery notes</target>
+			</trans-unit>
+			<trans-unit id="InputForm_NotesPlaceholder" resname="InputForm_NotesPlaceholder">
+				<source>Notes for the warehouse</source>
+				<target>Notes for the warehouse</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Date" resname="InputForm_Date">
+				<source>Date</source>
+				<target>Date</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Status" resname="InputForm_Status">
+				<source>Status</source>
+				<target>Status</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Required" resname="InputForm_Required">
+				<source>* This field cannot be empty</source>
+				<target>* This field cannot be empty</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Save" resname="InputForm_Save">
+				<source>Save</source>
+				<target>Save</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

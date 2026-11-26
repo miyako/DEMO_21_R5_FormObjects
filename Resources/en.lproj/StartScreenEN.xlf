@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="StartScreen" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="StartScreen_WindowTitle" resname="StartScreen_WindowTitle">
+				<source>Form Objects - Border &amp; Background styles</source>
+				<target>Form Objects - Border &amp; Background styles</target>
+			</trans-unit>
+			<trans-unit id="StartScreen_Title" resname="StartScreen_Title">
+				<source>Border &amp; Background Styles</source>
+				<target>Border &amp; Background Styles</target>
+			</trans-unit>
+			<trans-unit id="StartScreen_Subtitle" resname="StartScreen_Subtitle">
+				<source>Custom borders, background colors and corner radius in 4D 21 R5, set from the Form Editor, CSS or code.</source>
+				<target>Custom borders, background colors and corner radius in 4D 21 R5, set from the Form Editor, CSS or code.</target>
+			</trans-unit>
+			<trans-unit id="StartScreen_OpenOrders" resname="StartScreen_OpenOrders">
+				<source>Open Demo Orders</source>
+				<target>Open Demo Orders</target>
+			</trans-unit>
+			<trans-unit id="StartScreen_GenerateData" resname="StartScreen_GenerateData">
+				<source>Generate Data</source>
+				<target>Generate Data</target>
+			</trans-unit>
+			<trans-unit id="StartScreen_DataReady" resname="StartScreen_DataReady">
+				<source>{n} sample orders created.</source>
+				<target>{n} sample orders created.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

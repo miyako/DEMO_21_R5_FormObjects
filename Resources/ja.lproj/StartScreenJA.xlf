@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="StartScreen" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="StartScreen_WindowTitle" resname="StartScreen_WindowTitle">
+				<source>Form Objects - Border &amp; Background styles</source>
+				<target>フォームオブジェクト - 境界線と背景のスタイル</target>
+			</trans-unit>
+			<trans-unit id="StartScreen_Title" resname="StartScreen_Title">
+				<source>Border &amp; Background Styles</source>
+				<target>境界線と背景のスタイル</target>
+			</trans-unit>
+			<trans-unit id="StartScreen_Subtitle" resname="StartScreen_Subtitle">
+				<source>Custom borders, background colors and corner radius in 4D 21 R5, set from the Form Editor, CSS or code.</source>
+				<target>4D 21 R5 では、カスタム境界線・背景色・角丸を、フォームエディター、CSS、コードのいずれからでも設定できます。</target>
+			</trans-unit>
+			<trans-unit id="StartScreen_OpenOrders" resname="StartScreen_OpenOrders">
+				<source>Open Demo Orders</source>
+				<target>デモの注文を開く</target>
+			</trans-unit>
+			<trans-unit id="StartScreen_GenerateData" resname="StartScreen_GenerateData">
+				<source>Generate Data</source>
+				<target>サンプルデータを作成</target>
+			</trans-unit>
+			<trans-unit id="StartScreen_DataReady" resname="StartScreen_DataReady">
+				<source>{n} sample orders created.</source>
+				<target>サンプル注文を {n} 件作成しました。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

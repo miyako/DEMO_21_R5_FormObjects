@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="ThemePanel" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="ThemePanel_Title" resname="ThemePanel_Title">
+				<source>Theme</source>
+				<target>テーマ</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_System" resname="ThemePanel_System">
+				<source>System</source>
+				<target>システム</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_RoundedSystem" resname="ThemePanel_RoundedSystem">
+				<source>Rounded System</source>
+				<target>角丸システム</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_Blue" resname="ThemePanel_Blue">
+				<source>Blue</source>
+				<target>ブルー</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_Grey" resname="ThemePanel_Grey">
+				<source>Grey</source>
+				<target>グレー</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_Orange" resname="ThemePanel_Orange">
+				<source>Orange</source>
+				<target>オレンジ</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_CodeApplied" resname="ThemePanel_CodeApplied">
+				<source>Code applied</source>
+				<target>適用されたコード</target>
+			</trans-unit>
+			<trans-unit id="ThemePanel_Toggle" resname="ThemePanel_Toggle">
+				<source>Show or hide the theme panel</source>
+				<target>テーマパネルの表示/非表示</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

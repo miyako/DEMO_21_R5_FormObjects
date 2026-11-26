@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="InputForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="InputForm_WindowTitle" resname="InputForm_WindowTitle">
+				<source>Order details - Customer and delivery</source>
+				<target>注文詳細 - 顧客と配送先</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Heading" resname="InputForm_Heading">
+				<source>Order details</source>
+				<target>注文詳細</target>
+			</trans-unit>
+			<trans-unit id="InputForm_OrderNumber" resname="InputForm_OrderNumber">
+				<source>Order Number</source>
+				<target>注文番号</target>
+			</trans-unit>
+			<trans-unit id="InputForm_OrderNumberNew" resname="InputForm_OrderNumberNew">
+				<source>Assigned on save</source>
+				<target>保存時に自動で採番</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Customer" resname="InputForm_Customer">
+				<source>Customer</source>
+				<target>顧客</target>
+			</trans-unit>
+			<trans-unit id="InputForm_CustomerPlaceholder" resname="InputForm_CustomerPlaceholder">
+				<source>Customer name</source>
+				<target>顧客名</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Address" resname="InputForm_Address">
+				<source>Delivery address</source>
+				<target>配送先住所</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Notes" resname="InputForm_Notes">
+				<source>Delivery notes</source>
+				<target>配送メモ</target>
+			</trans-unit>
+			<trans-unit id="InputForm_NotesPlaceholder" resname="InputForm_NotesPlaceholder">
+				<source>Notes for the warehouse</source>
+				<target>倉庫への連絡事項</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Date" resname="InputForm_Date">
+				<source>Date</source>
+				<target>日付</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Status" resname="InputForm_Status">
+				<source>Status</source>
+				<target>ステータス</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Required" resname="InputForm_Required">
+				<source>* This field cannot be empty</source>
+				<target>* 入力が必要です</target>
+			</trans-unit>
+			<trans-unit id="InputForm_Save" resname="InputForm_Save">
+				<source>Save</source>
+				<target>保存</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
