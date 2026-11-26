@@ -77,10 +77,10 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/themeGreen.4dm",
-					"borderFillColor": "#16835B",
-					"borderColor": "#0E5A3E",
+					"borderFillColor": "#8A9099",
+					"borderColor": "#5F6670",
 					"borderWidth": 1,
-					"borderRadius": 12,
+					"borderRadius": 4,
 					"sizingX": "move"
 				},
 				"themePop": {

@@ -63,8 +63,8 @@ If ($fields="input@")
 	var $name : Text
 	var $left; $top; $right; $bottom; $bestWidth; $bestHeight; $i : Integer
 	
-	// Save/Cancel: taller with a custom theme, bottom-aligned
-	var $height : Integer:=($t=Null) ? 24 : 32
+	// Save/Cancel: taller with a custom theme, 27 px minimum for rounded Liquid Glass buttons, bottom-aligned
+	var $height : Integer:=($t=Null) ? ((FORM theme="liquidGlass") ? 27 : 24) : 32
 	For each ($name; ["btnSave"; "btnCancel"])
 		OBJECT GET COORDINATES(*; $name; $left; $top; $right; $bottom)
 		OBJECT SET COORDINATES(*; $name; $left; $bottom-$height; $right; $bottom)
